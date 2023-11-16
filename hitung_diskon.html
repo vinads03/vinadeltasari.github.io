@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Hitung diskon</title>
+</head>
+<body >
+        <script language="JavaScript" type="text/javascript">
+            var a = prompt ("Total Belanja : ");
+           if(a >= 100000 && a<300000)
+            {
+            status="Anda mendapatkan diskon 10%";
+            var harga_setelahDiskon= a-(a*0.05);
+            alert(status+"dan total belanjaan anda adalah Rp."+harga_setelahDiskon);
+            }
+            else if(a>=300000){
+                status="Anda mendapatkan diskon 10%";
+            var harga_setelahDiskon= a-(a*0.1);
+            alert(status+"dan total belanjaan anda adalah Rp."+harga_setelahDiskon);
+            }
+            else{ 
+            status="terimakasih telah berbelanja di Toko Kami";
+            alert(status);
+        }
+        </script>
+</body>
+</html>
